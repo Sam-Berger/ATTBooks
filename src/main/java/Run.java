@@ -20,13 +20,18 @@ public class Run {
         };
 
         //your book list
+        //Uncomment out lines 25-27 and 33
+        //Enter in the books you want to use in starting in line 25, replacing the example book, Mockingjay.
 //        Book[] yourBookList = {
-                //enter in the books you want to use here to run the function
+//                new Book("Mockingjay", "08/09/2014", "Suzanne Collins", 642)
 //        };
 
 
         System.out.println(BookList.printOldestBookOfMaxAuthor(sampleBookList1));
         System.out.println(BookList.printOldestBookOfMaxAuthor(sampleBookList2));
+//        Uncomment Below
+//        System.out.println(BookList.printOldestBookOfMaxAuthor(yourBookList));
+
 
     }
 }

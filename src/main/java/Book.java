@@ -1,7 +1,10 @@
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Locale;
+import java.util.Set;
 
 public class Book {
 
@@ -10,9 +13,19 @@ public class Book {
     private String author;
     private int length;
 
+    Set<String> possibleAuthors = new HashSet<>(Arrays.asList("Steven King", "Suzanne Collins", "Rudyard Kipling",
+            "Isaac Asimov"));
+
     public Book() {}
 
     public Book(String title, String date, String author, int length) {
+//        if (author != "Suzanne Collins" || author) {
+////                || author != "Suzanne Collins" || author != "Rudyard Kipling" || author !=
+////                "Isaac Asimov") {
+        if (!possibleAuthors.contains(author)) {
+            throw new IllegalArgumentException("Author must be Steven King, Suzanne Collins, Rudyard Kipling or Isaac" +
+                    " Asimov");
+        }
         this.title = title;
         this.date = date;
         this.author = author;

@@ -1,0 +1,130 @@
+Instructions
+
+Please write and submit a program that meets the Project Requirements listed below.
+Please save a copy of the program somewhere that you can access it as you will need it during the technical interview. If granted an interview, you will be asked questions related to this program and may be asked to execute and/or modify it.
+
+Your assignment will be evaluated for object-oriented design concepts, use of appropriate data structures, language proficiency, functionality, and code readability. During your interview, be prepared to justify aspects of your program including language choice, data structure usage, and other technical details of the program.
+
+Languages
+
+You may write the program in any of the following languages: Java, Python/Python3, C/C++ or JavaScript (Node).
+
+Time Limit
+
+Expect to spend no less than 30 minutes working on this assignment and no more than 6 hours. You have the entirety of the 72-hour time limit outlined in your invitation email to complete this assignment. You will not be evaluated on the time spent on this assignment. Only attempt this assignment once, as your first attempt is the only one that counts towards your score.
+
+The deadline for submission is as follows:
+
+You must submit a zip file of your solution no later than the deadline listed in your invitation email.
+Important: Remote Interview will accept your submission even after this deadline passes. You are responsible for meeting the deadline requirements to be considered for the Technology Development Program (TDP).
+PLEASE NOTE THAT THIS TOOL DOES NOT TRACK THE TIME LIMIT DEFINED IN YOUR INVITATION.  Remote Interview DOES track submission time, so AT&T will be able to determine if a submission is delivered after the deadline provided in your invitation email.
+Definition of Complete
+
+A "complete" submission will:
+
+- Contain README documentation (preferably a file named README) that describes the behaviors of your submission and explains how to start and operate the program, including any and all input formats and requirements
+
+- Allow for up to 100 pieces of data to be input simultaneously
+
+- Output the requested result
+
+Once you schedule a technical interview, your submission will be reviewed by the technical interview team.  If it is determined that your submission does not meet the stated "complete" requirements, your interview will be cancelled.
+
+The score assigned at the end of the assignment purely reflects uploading a document, not completeness.
+
+Technical Issues
+
+For ANY technical issues related to the assignment, please contact the location associated with your application:
+
+Atlanta TDP Hiring Leads
+Chicago TDP Hiring Leads
+Dallas TDP Hiring Leads
+Los Angeles TDP Hiring Leads
+New Jersey TDP Hiring Leads
+San Ramon TDP Hiring Leads
+Seattle TDP Hiring Leads
+St. Louis TDP Hiring Leads
+Project Requirements
+
+Write a program that:
+
+Accepts from the user at runtime multiple BOOKS.
+
+Each BOOK has a TITLE, DATE OF PUBLICATION (including year, month, and day), AUTHOR, and LENGTH (in pages).
+
+Input AUTHOR can be STEVEN KING, RUDYARD KIPLING, ISAAC ASIMOV or SUZANNE COLLINS.
+
+NOTE: TITLE field will not contain punctuation of any kind (Examples: “I, Robot” will be entered as “I Robot”; “Sophie’s Choice” would be entered as “Sophies Choice”)
+
+Input will be formatted as "TITLE,DATE,AUTHOR,LENGTH" with dates formatted as "mm/dd/yyyy" e.g. "02/14/1856" as shown in the examples below.
+
+
+
+Each AUTHOR writes in a specific GENRE.
+
+Steven King writes Horror
+
+Rudyard Kipling writes Adventure
+
+Isaac Asimov writes Science Fiction
+
+Suzanne Collins writes YA Fiction
+
+
+
+Identify the oldest BOOK by the AUTHOR with the most BOOKS.
+
+Display to the user the following message about this BOOK:
+
+"TITLE, written by GENRE writer AUTHOR on DATE OF PUBLICATION is LENGTH pages long."
+
+
+
+EXAMPLES
+
+Example 1:
+
+Input:
+
+Carrie,06/13/1982,Steven King,762
+
+The Stand,01/01/1984,Steven King,1200
+
+The Hunger Games,11/12/2013,Suzanne Collins,600
+
+The Jungle Book,03/21/1898,Rudyard Kipling,483
+
+Kim,02/03/1910,Rudyard Kipling,526
+
+I Robot,08/11/1945,Isaac Asimov,474
+
+Firestarter,04/01/1982,Steven King,597
+
+
+
+Output:
+
+Firestarter, written by Horror writer Steven King on 04/01/1982 is 597 pages long.
+
+
+
+Example 2:
+
+Input:
+
+Carrie,06/13/1982,Steven King,762
+
+I Robot,08/29/1945,Isaac Asimov,474
+
+The Jungle Book,09/17/1900,Rudyard Kipling,483
+
+Kim,02/03/1910,Rudyard Kipling,526
+
+Mockingjay,08/09/2014,Suzanne Collins,642
+
+
+
+Output:
+
+The Jungle Book, written by Adventure writer Rudyard Kipling on 09/17/1900 is 483 pages long.
+
